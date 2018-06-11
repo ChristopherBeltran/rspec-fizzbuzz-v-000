@@ -4,9 +4,11 @@ def fizzbuzz(number)
   
   if by3 && by5
       puts "FizzBuzz"
-    else if by3
+    elseif by3
       puts "Fizz"
-    else if by5
+    elseif by5
       puts "Buzz"
+    else
+      nil
     end
   end
