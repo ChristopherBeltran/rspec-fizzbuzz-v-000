@@ -8,7 +8,5 @@ def fizzbuzz(number)
       "Fizz"
   when by5
       "Buzz"
-    else
-      nil
     end
   end
