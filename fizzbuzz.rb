@@ -3,11 +3,11 @@ def fizzbuzz(number)
   by5 = (number % 5 == 0)
   
   if by3 && by5
-      puts "FizzBuzz"
+      "FizzBuzz"
     elseif by3
-      puts "Fizz"
+      "Fizz"
     elseif by5
-      puts "Buzz"
+      "Buzz"
     else
       nil
     end
