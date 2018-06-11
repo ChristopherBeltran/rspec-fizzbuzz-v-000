@@ -4,9 +4,9 @@ def fizzbuzz(number)
   
   if by3 && by5
       puts "FizzBuzz"
-    elseif by3
+    else if by3
       puts "Fizz"
-    elseif by5
+    else if by5
       puts "Buzz"
     end
   end
