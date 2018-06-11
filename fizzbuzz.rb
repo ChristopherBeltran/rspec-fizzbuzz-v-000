@@ -3,7 +3,7 @@ def fizzbuzz(number)
   by5 = (number % 5 == 0)
   
   
-  case fizzer
+  case
   
   when by3 && by5
       "FizzBuzz"
